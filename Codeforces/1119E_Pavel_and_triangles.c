@@ -1,9 +1,9 @@
-    #include<stdio.h>
+#include<stdio.h>
      
-    int main() 
-    {
+int main() 
+{
      
-    	 long long N, count=0;
+    	long long N, count=0;
     	long long int carry=0;
     	scanf("%lli", &N);
             long long int curr;
@@ -26,5 +26,6 @@
     	printf("%lli", count);
      
     	return 0;
-    }
+}
 
+// contributor - https://github.com/aditya113141
